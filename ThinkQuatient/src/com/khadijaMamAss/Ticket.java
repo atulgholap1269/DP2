@@ -5,7 +5,8 @@ public class Ticket {
 	private int price;
 	private static int availableTickets;
 	
-	public static int getAvailableTickets() {
+	public static int getAvailableTickets()
+	{
 		return availableTickets;
 		
 	}
@@ -16,8 +17,9 @@ public class Ticket {
 	public int getTicketid() {
 		return ticketid;
 	}
-	public static void setAvailableTickets(int availableTickets) {
-		while(availableTickets>0)
+	public static void setAvailableTickets(int availableTickets) 
+	{
+		if(availableTickets>0)
 		{
 		Ticket.availableTickets = availableTickets;
 		}

@@ -9,9 +9,7 @@ public class TicketsApplication {
 		System.out.println("Enter no of Booking:");
 		int booking = sc.nextInt();
 		
-		System.out.println("Enter the available tickets:");
-		int tickets= sc.nextInt();
-		Ticket.setAvailableTickets(tickets);
+		
 		
 		System.out.println("Enetr Ticket Id:");
 		int ticketIds=sc.nextInt();
@@ -21,6 +19,9 @@ public class TicketsApplication {
 		int price1= sc.nextInt();
 		obj.setPrice(price1);
 		
+		System.out.println("Enter the available tickets:");
+		int tickets= sc.nextInt();
+		Ticket.setAvailableTickets(tickets);
 	//	do
 	//	{
 		System.out.println("Enter number of tickets:");

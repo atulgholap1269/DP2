@@ -1,5 +1,5 @@
 package com.oppsAssignment;
 
 public class Vehical {
-  public int wheel=10;
+  protected int wheel=10;
 }
