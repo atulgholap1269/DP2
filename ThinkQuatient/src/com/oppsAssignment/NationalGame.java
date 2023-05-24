@@ -20,6 +20,7 @@ public class NationalGame {
     case "Bangladesh" :System.out.println("Kabaddi");
     break;
     case"United States" : System.out.println("baseball");
+    break;
     default:System.out.println("invalid input");
    
     }

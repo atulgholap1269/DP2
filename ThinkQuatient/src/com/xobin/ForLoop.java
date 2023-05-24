@@ -10,7 +10,8 @@ public class ForLoop {
 					{
 						if(j==1)
 						{
-							break outer;
+							//break inner;
+							//System.out.println("A");
 						}
 						
 					}

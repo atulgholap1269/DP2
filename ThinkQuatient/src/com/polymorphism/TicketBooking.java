@@ -11,7 +11,7 @@ public class TicketBooking {
 	}
 	public void doOnlinebooking(Aeroplane c)
 	{
-		c.booking(60.5f);
+		c.booking(600.5f);
 	}
 	
 	public static void main(String[] args) {

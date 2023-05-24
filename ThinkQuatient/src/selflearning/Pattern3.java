@@ -25,7 +25,7 @@ public class Pattern3 {
 	
 	public void displayNumber1()
 	{
-		for(int i=1;i<=n;i++)
+		for(int i=1;i<=5;i++)
 		{
 			for(int j=1;j<=3;j++)
 			{
@@ -48,7 +48,7 @@ public class Pattern3 {
 			for(int j=1;j<=n;j++)
 			{
 				System.out.printf("%3d",x);
-				x+=n;
+				x+=5;;
 			}
 			System.out.println();
 		}

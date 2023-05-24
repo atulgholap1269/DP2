@@ -2,11 +2,11 @@ package com.overloading;
 
 public class MethodOverLLoadingToAreas {
 	
-    public void area(int radius)
+    public final void area(int radius)
     {
     	System.out.println("Area of circle:"+(3.14*radius*radius));
     }
-    public void area(int length, int height)
+    public final void area(int length, int height)
     {
     	System.out.println("Area of Rectangle:"+(length*height));
     }

@@ -12,6 +12,7 @@ public class Increment {
   			case i-2:System.out.println("2");
 			}
 		}
+		//212012
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.writeenAssignment;
+ package com.writeenAssignment;
 
 import java.util.Scanner;
 

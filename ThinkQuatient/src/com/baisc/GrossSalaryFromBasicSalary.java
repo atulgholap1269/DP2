@@ -10,11 +10,11 @@ public static void main(String[] args) {
 	float grossSalary=0;
 	float HRA, DA;
 	
-	 if(basicSalary>20000)
+	 if(basicSalary>=20000)
 	{
 		grossSalary=basicSalary+(0.3f*basicSalary)+(0.9f*basicSalary);
 	}
-	 else if(basicSalary<=20000)
+	 else if(basicSalary<20000)
 	{
 		grossSalary=basicSalary+(0.25f*basicSalary)+(0.9f*basicSalary);
 	}

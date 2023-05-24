@@ -28,5 +28,5 @@ public class Account {
 	  Account obj3 = new Account(145, "Atul Banshi Gholap");
 	  System.out.println(obj3.accNo);
 	  System.out.println(obj3.customerName);
-}
+  }
 }

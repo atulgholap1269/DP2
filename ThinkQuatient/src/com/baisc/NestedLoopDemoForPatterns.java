@@ -30,14 +30,14 @@ public class NestedLoopDemoForPatterns {
 	//****
 	//**
 	//*
-		/*for(int i=5;i>=0;i--)
+		for(int i=1;i<=5;i++)
 		{
-			for(int j=0;j<=i;j++)
+			for(int j=5;j>=i;j--)
 			{
 				System.out.print("*");
 			}
 			System.out.println();
-		}*/
+		}
 		//to print character
 		//A
 		//AB
@@ -102,14 +102,17 @@ public class NestedLoopDemoForPatterns {
 		//ABC
 		//AB
 		//A
-		/*for(char i ='D';i>='A';i--)
+		char k;
+		for(char i =1;i<=4;i++)
 		{
-			for(char j='A';j<=i;j++)
+			k='A';
+			for(char j=4;j>=i;j--)
 			{
-				System.out.print(j);
+				System.out.print(k);
+				k++;
 			}
 			System.out.println();
-		}*/
+		}
 		
 		
 		

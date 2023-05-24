@@ -1,4 +1,4 @@
-package com.useOfThis;
+ package com.useOfThis;
 
 import java.util.Scanner;
 

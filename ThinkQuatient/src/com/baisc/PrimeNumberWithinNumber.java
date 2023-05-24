@@ -1,4 +1,4 @@
- package com.baisc;
+  package com.baisc;
 
 import java.util.Scanner;
 

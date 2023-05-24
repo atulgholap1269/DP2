@@ -7,12 +7,21 @@ public class NumberSeries {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Entre number of term");
 		int num=sc.nextInt();
-		int terms;
-		for(int i=1;i<=num;i++)
+		int copy=num;
+		int rem,pal=0;
+		while(num>0)
 		{
-			terms=1;
-			terms=terms*(i*i)+(i*i*i);
-			System.out.print(terms+",");
+			 rem=num%10;
+			pal=rem+(pal*10);
+			num=num/10;
+		}
+		if(pal==copy)
+		{
+			System.out.println("palindrom number");
+		}
+		else
+		{
+			System.out.println("not palindrom number");
 		}
 	}
 

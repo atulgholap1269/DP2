@@ -1,6 +1,6 @@
 package com.heirarchical;
 
-public class CEO {
+public class Department {
 	int technicalTeam;
 	int financeTeam;
 	int  marketingTeam;

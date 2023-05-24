@@ -17,6 +17,7 @@ public class KarpekarNumber {
 			div=div*10; 
 			num=num/10;
 		}
+		System.out.println(div);
 		num=copyNum;
 	    int lastDigit=sq%div;
 	    int firstdigitOfSq=sq/div;

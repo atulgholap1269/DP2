@@ -11,19 +11,25 @@ public static void main(String[] args) {
 	int num1=num;
 	int num2=num;
 	int count=0;
-	int div;
+	
+	double pow;
 	while(num1>0)
 	{
-		div=num1%10;
 		count++;
 		num1=num1/10;
 	}
-	System.out.println(+count);
+	
 	while(num2>0)
 	{
 		rem=num2%10;
-		//arm=arm+(rem*rem*rem);
-		arm=arm+ Math.pow(rem,count);
+	
+		pow=1;
+		for(int i=1;i<=count;i++) {
+		
+		   pow =(pow*rem);
+		}
+	
+		arm=arm+pow;
 		num2=num2/10;
 	}
 	if(num==arm)

@@ -7,9 +7,13 @@ public class Employee {
   public Employee()
   {
 	  System.out.println("default comnstructor of super class");
-	  this.empId=123;
-	  this.empName="Atul";
-	  this.salary=50000;  
+//	  this.empId=123;
+//	  this.empName="Atul";
+//	  this.salary=50000;  
+  }
+  public float calculateSalary()
+  {
+	  return salary;
   }
   public Employee(int empId,  String empName, float salary)
   {
@@ -44,7 +48,7 @@ class Manager extends Employee
 	{
 		super(12,"Atul",50000);
 		System.out.println("default comnstructor of sub class");
-		this.incentive = 10000;
+		
 	}
 	public Manager(float incentive)
 	{
@@ -60,6 +64,11 @@ class Manager extends Employee
 	{
 		return incentive;
 	}
+	public float calculateSalary()
+	{
+		salary=salary +getIncentive();
+		return salary;
+	}
 	public void showManagerDetails()
 	{
 		showEmpDetails();
@@ -70,6 +79,7 @@ class Manager extends Employee
 
 class SalesManager extends Manager
 {
+	
 	float target;
 	public void setTarget(float target)
 	{

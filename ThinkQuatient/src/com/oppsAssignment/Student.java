@@ -25,10 +25,10 @@ public static void main(String[] args) {
 	//System.out.println(s.marks1);
 	Student s1= new Student();
 	//Student s2= new Student();
-
-	//boolean result=true;
-	//Object myObject=new Object(); You can creat anonymous object during instantiation by storing the instance with var keyword
-   // var myObject1= new Object();
+//
+//	boolean result=true;
+//	Object myObject=new Object();// You can creat anonymous object during instantiation by storing the instance with var keyword
+//    var myObject1= new Object();
 	s.studentDetails( 67,"Atul");
 	s.displayDetials();
 	//object with two differnt var have differnt hash code it means it creat two memory iside heap

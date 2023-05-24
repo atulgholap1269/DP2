@@ -4,9 +4,11 @@ package selflearning;
 //21 23 25 27 29
 //31 33 35 37 39
 public class Pattern1 {
-	int n=2; int k=5;
-	public void displayNumber()
+	int n; int k;
+	public void displayNumber(int n, int k)
 	{
+		this.k=k;
+		this.n=n;
 		for(int i=1;i<=k;i++)
 		{
 			for(int j=1;j<=k;j++)
@@ -19,7 +21,7 @@ public class Pattern1 {
 	}
 	public static void main(String[] args) {
 		Pattern1 obj =new Pattern1();
-		obj.displayNumber();
+		obj.displayNumber(1, 7);
 	}
 	
 

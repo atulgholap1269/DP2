@@ -13,8 +13,10 @@ public class GreaterNumberFromThree {
 		int num2= sc.nextInt();
 		System.out.println("Entre third number");
 		int num3= sc.nextInt();
-		
-		
+		int secondGrea =num1>num2?num1:num2;
+		int greater=secondGrea>num3?secondGrea:num3;
+		System.out.println(greater);
+        
 		if(num1>num2 && num1>num3)
 		{
 			System.out.println(+num1+" is greater");

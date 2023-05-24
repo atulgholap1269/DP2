@@ -7,7 +7,7 @@ public class AccessSpecifireDemo3 {
 		a.name="Atul";
 		a.balance=8658;
 		a.openAccount();
-		
+		 a.showCustomerDetails();
 	}
 
 }

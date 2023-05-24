@@ -3,12 +3,12 @@ package com.assgnments;
 import java.util.Scanner;
 
 public class Assign5 {
-	
+	static int balance=1000;
 	public static void main(String[] args) {
-	    
+	   
 		final int pin=1234;
 		Scanner sc=new Scanner(System.in);
-		int balance=1000;
+		 
 		char ch;
 		
 		int withrowAmount;

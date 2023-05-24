@@ -1,7 +1,7 @@
-package com.baisc;
+package com.writeenAssignment;
 
-public class JavaProgrammeToConvertForInToNestedIfOrWhile {
-	public static void main(String[] args) {
+public class AssQu {
+public static void main(String[] args) {
 		
 		int s=0;
 		int t=1;
@@ -25,5 +25,4 @@ public class JavaProgrammeToConvertForInToNestedIfOrWhile {
        
        System.out.println("S is " + s);
 	}
-
 }

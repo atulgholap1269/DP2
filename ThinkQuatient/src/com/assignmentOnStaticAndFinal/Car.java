@@ -9,7 +9,7 @@ public class Car {
 	{
 		System.out.println("single parameterized static method");
 	}
-	public void display(int a, int b)// Access Specifier and static, non-static is not make effect on overloading.
+	public  static void display(int a, int b)// Access Specifier and static, non-static is not make effect on overloading.
 	{
 		System.out.println("double parameterized static method");
 	}
@@ -26,9 +26,13 @@ public class Car {
 		Car obj =new Car();
 		obj.model="2012";
 		obj.inTotalCarSold="60";
+		
 		Car obj1= new Car();//When change value of static variable from two object then it will create two instances of static variabl]
+		obj1.model="2013";
 		System.out.println(obj1.model);
+		System.out.println(obj.model);
 		System.out.println(obj1.inTotalCarSold);
+	
 		//System.out.println(a); static method can not access instance variable implicitely
 		System.out.println(model);// static method can access static variable.
 		

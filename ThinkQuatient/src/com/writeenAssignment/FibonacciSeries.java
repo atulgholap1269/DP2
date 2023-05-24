@@ -8,7 +8,7 @@ public class FibonacciSeries {
 		System.out.println(a);
 		System.out.println(b);
 		int sum=0;
-		int i=3;
+		//int i=3;
 		while(sum<=10000)
 		{
 			

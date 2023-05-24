@@ -16,8 +16,9 @@ void display()
 	Simple obj1 = new Simple();
 	Simple obj2 =new Simple();
 	obj1.incree();
-	obj2.incree();
 	obj1.display();
+	obj2.incree();
+	
 	obj2.display();
 }
 }

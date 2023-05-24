@@ -8,6 +8,7 @@ public class HarshatNumber {
 		System.out.println("entre any number");
 		int num=sc.nextInt();
 		int sum=0;
+		
 		while(num>0)
 		{
 			int dig=num%10;

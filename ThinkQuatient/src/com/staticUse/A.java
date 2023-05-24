@@ -3,6 +3,8 @@ package com.staticUse;
 
 
 public class A {
+	
+        
 	class B 
 	    {
 		 
@@ -13,6 +15,6 @@ public class A {
 		 
 	 }
 	 
-	
-
 }
+
+

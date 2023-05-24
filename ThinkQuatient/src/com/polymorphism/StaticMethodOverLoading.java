@@ -19,12 +19,12 @@ class OverLoad{
 	}
 	public static void display(int a, int b)
 	{
-		OverLoad.display(1);
+		//OverLoad.display(1);
 		System.out.println("is");
 	}
 	public static void display(String a, int b)
 	{
-		OverLoad.display(1,4);
+		//OverLoad.display(1,4);
 		System.out.println("Atul");
 	}
 	

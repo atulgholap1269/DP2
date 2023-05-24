@@ -1,6 +1,6 @@
 package com.heirarchical;
 
-public class Taluka {
+public class Village {
 	int alkutiPopulation, pabalPopulation, randhePopulation, nighojPopulation;
 	public void alkutiPopulation()
 	{

@@ -8,12 +8,12 @@ public class LearnString {
 		System.out.println(str.length());
 		System.out.println(str.toUpperCase());
 		System.out.println(str.toLowerCase());
-		System.out.println(str+" Banshi\" \" "+surname);
+		System.out.println(str+" Banshi "+surname);
 		System.out.println(str+"from \\");
 		System.out.println(str+"from \t"+ surname);
 		System.out.println(str+"from \n"+surname);
 		System.out.println(str.startsWith("M"));//checks starting character
-		System.out.println(str.contains("am"));// checks give word contain is string or not
+		System.out.println(str.contains("am"));// checks given word contain in string or not
 		System.out.println(str.endsWith("l"));// check end character
 		System.out.println(str.charAt(5));// check charcter at index
 		System.out.println(str.indexOf("is"));// get index given word from string

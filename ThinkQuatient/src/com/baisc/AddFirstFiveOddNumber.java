@@ -7,36 +7,21 @@ public class AddFirstFiveOddNumber {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("entre any number ");
 		int n=sc.nextInt();
-		int copyNum=n;
-	    double arm=0; 
-	    int rem;
-	    int count=0;
-	    while(n>0)
-	    {
-	    	count++;
-	    	n=n/10;
-	    }
-	    n=copyNum;
-	    while(n>0)
-	    {
-	    	rem=n%10;
-	    	arm=(double)arm+Math.pow(rem, count);
-	    	n=n/10;
-	    }
-	if(arm==copyNum)
-	{
-		System.out.println("Armstrong number");
-	}
-	else
-	{
-		System.out.println("not armstrong number");
-	}
-	
-	
+		int sumOfOdd=0;
+		   for(int i=1;i<n*2;i++)
+		   {
+			   if(i%2!=0)
+			   {
+				   sumOfOdd=sumOfOdd+i;
+			   }
+				   
+		   }
+	  System.out.println(sumOfOdd);
+		}
 			
 		
 		
-	}
+	
 
 
 }

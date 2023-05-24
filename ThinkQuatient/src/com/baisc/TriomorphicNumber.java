@@ -20,7 +20,7 @@ public class TriomorphicNumber {
 		num=copyNum;
 		
 	
-		 lastDigitOfCube=cube%div;
+		 lastDigitOfCube=cube%10;
 		 
 		 if(num==lastDigitOfCube)
 			{

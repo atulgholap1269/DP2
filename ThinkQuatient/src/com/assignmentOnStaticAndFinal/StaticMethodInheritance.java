@@ -11,7 +11,7 @@ class ParentClass
 	}
 }
 public class StaticMethodInheritance extends ParentClass {
-	
+   
 	public void sumOfIntegers()
 	{
 		Scanner sc = new Scanner(System.in);
@@ -26,9 +26,12 @@ public class StaticMethodInheritance extends ParentClass {
 		next = sc.nextInt();
 	   }
 	  
-	 
-		   
-	   }
+	}
+	public static void display()
+	{
+		System.out.println("Hi");
+	}   
+	   
 	
 	public static void main(String[] args) {
 		System.out.println(parent);// we can inherit staic variable from parent class into sub class.

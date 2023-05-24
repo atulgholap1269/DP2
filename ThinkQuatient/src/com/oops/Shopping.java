@@ -26,7 +26,7 @@ public class Shopping {
 	public static void main(String[] args)
 	{
 		Shopping show= new Shopping();
-		show.shoppingDetails(1,"mobile",10000,1);
+		show.shoppingDetails(1,"mobile",10000,5);
 		
 		if(show.qauntity>0)
 		{

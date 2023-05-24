@@ -7,7 +7,7 @@ public class SwitchStatement {
 		{
 		case 18:
 	        System.out.println("you can vote now");
-	        break;// used to break the loop or stop running of loop iff certain condition met in loop
+	        break;// used to break the loop or stop running of loop if certain condition met in loop
 		case 21:
 		    System.out.println("you can elgible for marraige now");
 		    break;

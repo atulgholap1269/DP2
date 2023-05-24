@@ -16,12 +16,12 @@ public class DiscountProblemOfMall {
 		card = sc.next().charAt(0);
 		if(card=='y'||card=='Y')
 		{
-			discBill=(float) (totalBill-(0.3*totalBill));
+			discBill= (totalBill-(0.3f*totalBill));
 			
 		}
 		else
 		{
-			discBill=(float) (totalBill-(0.2*totalBill));
+			discBill=(totalBill-(0.2f*totalBill));
 			
 		}
 			
